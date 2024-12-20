@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/web_store_test?useSSL=false
+    password: 123456
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: doanvantri2004@gmail.com  # Thay your-email@gmail.com bằng địa chỉ email Gmail của anh
+    password: hdck liie ahin uyer    # Thay your-app-password bằng mật khẩu ứng dụng của anh
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8084
+
+
+
+
+
